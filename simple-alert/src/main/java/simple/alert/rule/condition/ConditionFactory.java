@@ -5,7 +5,6 @@ public class ConditionFactory {
 	public static Condition createCondition(String condition, String valueText) throws Exception {
 
 		Condition result = null;
-		;
 
 		String shortText = condition.substring(0, 3);
 		int value = Integer.parseInt(valueText);
